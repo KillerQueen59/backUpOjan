@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ViewAndViews</string>
+    <string name="rp_9_650_000">RP.9.650.000</string>
+    <string name="asus_vivobook_s15_s510uq">Asus Vivobook S15 S510UQ</string>
+    <string name="asus_vivobook_s15_memberi_anda_kombinasi_sempurna_antara_keindahan_desain_dan_performa_laptop_memiliki_bezel_nanoedge_yang_tipis_finishing_logam_yang_sempurna_prosesor_intel_core_i5_terbaru_dengan_ram_4gb_juga_grafis_nvidia_geforce_940mx_vivobook_s15_memang_sesuai_untuk_gaya_hidup_perkotaan_yang_serba_cepat">ASUS VivoBook S15 memberi Anda kombinasi sempurna antara keindahan desain dan performa laptop. Memiliki bezel NanoEdge yang tipis, finishing logam yang sempurna, prosesor Intel® Core™ i5 terbaru dengan RAM 4GB, juga grafis NVIDIA® GeForce® 940MX, VivoBook S15 memang sesuai untuk gaya hidup perkotaan yang serba cepat.</string>
+    <string name="i5_7200u_4gb_ddr4_1tb_hdd_128gb_ssd">(i5-7200U/4GB DDR4/1TB HDD+128GB SSD)</string>
+    <string name="prosesor">Prosesor</string>
+    <string name="intel_core_i5_7200u_processor">Intel® Core™ i5 7200U Processor</string>
+    <string name="memori">Memori</string>
+    <string name="_4_gb_ddr4_2133mhz_sdram">4 GB DDR4 2133MHz SDRAM</string>
+    <string name="grafis">Grafis</string>
+    <string name="nvidia_geforce_940mx_with_2gb_gddr5_vram">NVIDIA GeForce 940MX ,\n with 2GB GDDR5 VRAM</string>
+    <string name="storage">Storage</string>
+    <string name="hard_drives_n_1tb_5400rpm_sata_hdd_n_solid_state_drives_n_128gb_sata3_m_2_ssd">Hard Drives:\n  1TB 5400RPM SATA HDD\n  Solid State Drives:\n  128GB SATA3 M.2 SSD</string>
+    <string name="di_jual_oleh">Di jual Oleh</string>
+    <string name="beli">Beli</string>
+</resources>

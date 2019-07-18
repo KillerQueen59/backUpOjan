@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btnlist"
+        android:title="@string/list"
+        android:icon="@drawable/ic_list"/>
+    <item android:id="@+id/btngrid"
+        android:title="@string/grid"
+        android:icon="@drawable/ic_grid"/>
+    <item android:id="@+id/btncard"
+        android:title=  "@string/card"
+        android:icon="@drawable/ic_card"/>
+
+</menu>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MyNavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="hello">Hello</string>
+    <string name="siapa_saya">Siapa saya</string>
+    <string name="siapa_saya_com">Siapa saya.com</string>
+    <string name="camera">Camera</string>
+    <string name="manage">Manage</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="peta">Peta</string>
+    <string name="maps">Maps</string>
+    <string name="subway">Subway</string>
+    <string name="hotel">Hotel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>

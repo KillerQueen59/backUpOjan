@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Test Doang</string>
+    <string name="APA">au</string>
+    <string name="ap">wanjing</string>
+    <string name="fina">alisa</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="card">Card</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:src="@android:color/darker_gray"
+            android:layout_margin="15dp"
+            android:id="@+id/photoHero"
+            android:layout_width="150dp"
+            android:layout_height="220dp" />
+        <TextView
+            android:id="@+id/namaHero"
+            tools:text="Nama Pahlawan"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/photoHero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:maxLines="4"
+            android:textSize="15sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/descHero"
+            android:layout_below="@id/namaHero"
+            android:layout_toRightOf="@id/photoHero"
+            tools:text="description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/descHero"
+            android:layout_toRightOf="@id/photoHero"
+            android:id="@+id/Lienar2"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="@string/like"
+                android:textColor="#ffffff"
+                android:background="@color/colorAccent"
+                android:id="@+id/buttonLike"
+                android:layout_weight="0.45"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/buttonShare"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/Lienar2"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.45"
+                android:background="@color/colorAccent"
+                android:text="@string/share"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

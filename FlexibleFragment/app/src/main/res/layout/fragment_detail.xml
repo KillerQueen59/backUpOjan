@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailFragment"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/lifestyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lifestyle"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:id="@+id/infolifestyle"
+        android:text="@string/kategori_ini_berisi_produk_produk_lifestyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btnprofile"
+        android:layout_marginBottom="16dp"
+        android:text="@string/ke_halaman_profile_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/tampildialog"
+        android:layout_marginBottom="16dp"
+        android:text="@string/tampilkan_sebuah_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

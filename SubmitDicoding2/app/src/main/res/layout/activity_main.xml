@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#2A5F8C">
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Top Transfer"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="#c6e2ff"
+        android:padding="10dp"
+        android:layout_margin="16dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:background="#2A5F8C"
+        android:layout_margin="20sp"
+        android:id="@+id/recview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/activity_list"
+        android:layout_below="@id/botnav"
+        />
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/botnav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2A5F8C"
+        app:itemIconTint="@drawable/statement"
+        app:itemTextColor="@drawable/statement"
+        app:menu="@menu/menulist"
+        android:layout_below="@id/judul"
+        />
+
+
+
+
+</RelativeLayout>

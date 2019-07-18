@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/posteMovie"
+        android:scaleType="fitXY"
+        android:layout_width="150dp"
+        android:layout_height="200dp" />
+    <TextView
+        android:fontFamily="@font/robotolight"
+        android:id="@+id/titleMovie"
+        android:layout_toRightOf="@id/posteMovie"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:text="@string/avengers"
+        />
+    <TextView
+        android:text="2 januari 2019"
+        android:fontFamily="@font/robotolight"
+        android:id="@+id/dateMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/posteMovie"
+        android:layout_below="@id/titleMovie"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="10sp"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:fontFamily="@font/robotolight"
+        android:layout_toRightOf="@id/posteMovie"
+        android:layout_below="@id/dateMovie"
+        android:layout_marginStart="20dp"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:textSize="15sp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/descMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp" />
+    <TextView
+
+        android:fontFamily="@font/robotolight"
+        android:layout_toRightOf="@id/posteMovie"
+        android:layout_below="@id/descMovie"
+        android:background="#081C24"
+        android:paddingTop="15dp"
+        android:textColor="#01D277"
+        android:textAllCaps="false"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:textAlignment="textStart"
+        android:text="@string/more_info"
+        android:id="@+id/moreInfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="20dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

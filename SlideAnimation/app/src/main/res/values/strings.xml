@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SlideAnimation</string>
+    <string name="next">Next</string>
+    <string name="slide_1">SLIDE 1</string>
+    <string name="slide_2">SLIDE 2</string>
+    <string name="slide_3">SLIDE 3</string>
+    <string name="finish">Finish</string>
+    <string name="back">Back</string>
+</resources>

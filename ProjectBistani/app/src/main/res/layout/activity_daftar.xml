@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/signup1"
+    >
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/aset4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062" />
+    <TextView
+        android:id="@+id/LoginForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/robotolight"
+        android:paddingRight="20dp"
+        android:text="@string/sign_up_form"
+        android:textAlignment="textEnd"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.306"
+        tools:ignore="MissingConstraints"
+        android:layout_gravity="end" />
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layoutemail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.429"
+        tools:ignore="MissingConstraints">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/emailSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_back2"
+            android:fontFamily="@font/robotolight"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:textSize="15sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layoutNama"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532"
+        tools:ignore="MissingConstraints">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/namaSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_back2"
+            android:fontFamily="@font/robotolight"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:paddingStart="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:textSize="15sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layoutPhone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.624"
+        tools:ignore="MissingConstraints">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/phoneSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_back2"
+            android:fontFamily="@font/robotolight"
+            android:hint="@string/phone_number"
+            android:inputType="number"
+            android:paddingStart="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:textSize="15sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layoutPassword"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.731"
+        app:passwordToggleEnabled="true"
+        tools:ignore="MissingConstraints">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/passwordSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_back2"
+            android:fontFamily="@font/robotolight"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingStart="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:textSize="15sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="280dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/round_back3"
+        android:clickable="true"
+        android:fontFamily="@font/robotolight"
+        android:text="@string/sign_up"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.876"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tidakpunyakaun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/robotolight"
+        android:text="@string/telah_mempunyai_akun"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.373"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="@font/robotolight"
+        android:text="@string/masuk"
+        android:textColor="#6fd09d"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tidakpunyakaun"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947"
+        tools:ignore="MissingConstraints" />
+
+
+</android.support.constraint.ConstraintLayout>

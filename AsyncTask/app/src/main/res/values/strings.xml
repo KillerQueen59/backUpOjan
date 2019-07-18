@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AsyncTask</string>
+    <string name="status">Status</string>
+    <string name="desc">Desc</string>
+    <string name="status_pre">Status : onPreExecute</string>
+    <string name="status_post">Status : onPostExecute</string>
+</resources>

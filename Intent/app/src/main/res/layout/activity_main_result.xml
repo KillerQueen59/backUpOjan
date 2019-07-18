@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainResult"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/berapaumurojan"
+        android:layout_width="match_parent"
+        android:text="@string/berapa_umur_ojan"
+        android:textSize="20sp"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/radiogaga"
+        android:layout_width="match_parent"
+        android:layout_below="@id/berapaumurojan"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_10"
+      />
+        <RadioButton
+            android:id="@+id/_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_15"
+            />
+        <RadioButton
+            android:id="@+id/_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_20"
+          />
+        <RadioButton
+            android:id="@+id/_19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_19"
+            />
+    </RadioGroup>
+
+    <Button
+        android:layout_below="@id/radiogaga"
+        android:id="@+id/pilih"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pilih"/>
+
+</RelativeLayout>

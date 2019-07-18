@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ProjectBistani</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="Tidak_punya_akun">tidak punya akun?</string>
+    <string name="daftar">Daftar</string>
+    <string name="tidak_punya_akun">Tidak punya akun?</string>
+    <string name="login_form">Login Form</string>
+    <string name="sign_up_form">Sign Up Form</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="name">Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="telah_mempunyai_akun">Telah mempunyai akun ?</string>
+    <string name="masuk">Masuk</string>
+</resources>

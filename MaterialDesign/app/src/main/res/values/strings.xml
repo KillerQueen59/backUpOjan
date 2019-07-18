@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Material Design</string>
+    <string name="list">List</string>
+    <string name="card">Card</string>
+    <string name="grid">Grid</string>
+    <string name="a_k_a">a.k.a</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favourite">Favourite</string>
+    <string name="share">Share</string>
+
+</resources>

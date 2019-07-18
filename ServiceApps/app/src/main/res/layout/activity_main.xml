@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:text="@string/start_service"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnStartIntent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/start_intent_service"
+        android:layout_below="@id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnStartBound"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnStartIntent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/start_bound" />
+
+    <Button
+        android:id="@+id/btnStopBound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnStartIntent"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@id/btnStartBound"
+        android:text="@string/stop_bound" />
+
+</RelativeLayout>

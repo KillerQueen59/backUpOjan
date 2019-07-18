@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="pindah_activity">Pindah Activity</string>
+    <string name="ini_move_activity">INI MOVE ACTIVITY</string>
+    <string name="pindah_data">pindah dengan data</string>
+    <string name="pindah_object">Pindah dengan object</string>
+    <string name="dial_button">Dial a number</string>
+    <string name="move_result">Pindah dengan result</string>
+    <string name="berapa_umur_ojan">Berapa Umur Ojan?</string>
+    <string name="_10">10</string>
+    <string name="_15">15</string>
+    <string name="_20">20</string>
+    <string name="_19">19</string>
+    <string name="pilih">PILIH</string>
+    <string name="umur_ojan">UMUR OJAN</string>
+    <string name="umur_ojans">Umur Ojan :</string>
+</resources>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/asuss15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="25sp"
+                android:layout_margin="20dp"
+                android:text="@string/asus_vivobook_s15_s510uq"
+                android:gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </FrameLayout>
+        <TextView
+            android:textSize="20sp"
+            android:layout_margin="20dp"
+            android:text="@string/rp_9_650_000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/i5_7200u_4gb_ddr4_1tb_hdd_128gb_ssd"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:ellipsize="end"
+            android:text="@string/asus_vivobook_s15_memberi_anda_kombinasi_sempurna_antara_keindahan_desain_dan_performa_laptop_memiliki_bezel_nanoedge_yang_tipis_finishing_logam_yang_sempurna_prosesor_intel_core_i5_terbaru_dengan_ram_4gb_juga_grafis_nvidia_geforce_940mx_vivobook_s15_memang_sesuai_untuk_gaya_hidup_perkotaan_yang_serba_cepat" />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                >
+                <TextView
+                    android:textSize="15sp"
+                    android:text="@string/prosesor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15sp"
+                    android:text="@string/intel_core_i5_7200u_processor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                >
+                <TextView
+                    android:textSize="15sp"
+                    android:text="@string/memori"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15sp"
+                    android:text="@string/_4_gb_ddr4_2133mhz_sdram"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                >
+                <TextView
+                    android:textSize="15sp"
+                    android:text="@string/grafis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15sp"
+                    android:text="@string/nvidia_geforce_940mx_with_2gb_gddr5_vram"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                >
+                <TextView
+                    android:textSize="15sp"
+                    android:text="@string/storage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15sp"
+                    android:text="@string/hard_drives_n_1tb_5400rpm_sata_hdd_n_solid_state_drives_n_128gb_sata3_m_2_ssd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/di_jual_oleh"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ojan"
+                    android:layout_margin="20dp"/>
+                <TextView
+                    android:textSize="21sp"
+                    android:layout_gravity="center"
+                    android:text="M Fauzan Ramadhan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Button
+            android:layout_margin="20dp"
+            android:text="@string/beli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

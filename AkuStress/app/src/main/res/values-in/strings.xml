@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Katalog Film</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="more_info">Info Tambahan</string>
+    <string name="release">Terbit</string>
+    <string name="description">Deskripsi</string>
+
+    <string-array name="data_title">
+        <item>A Star is Born</item>
+        <item>Bohemian Rhapsody</item>
+        <item>Alita: Battle Angel</item>
+        <item>Creed II</item>
+        <item>Glass</item>
+        <item>Mortal Engines</item>
+        <item>Cold Pursuit</item>
+        <item>Fantastic Beast : the Crimes of Grindelwald</item>
+        <item>Mary Queen of Scots</item>
+        <item>Ralph Breaks the Internet</item>
+    </string-array>
+    <string-array name="data_title_tv">
+        <item>Arrow</item>
+        <item>The Flash</item>
+        <item>Gotham</item>
+        <item>Greys Anatomy</item>
+        <item>Iron Fist</item>
+        <item>NCIS</item>
+        <item>Riverdale</item>
+        <item>Super Girl</item>
+        <item>The Umbrella Academy</item>
+        <item>The Walking Dead</item>
+    </string-array>
+    <string-array name="data_date">
+        <item>Oktober 3, 2018</item>
+        <item>Oktober 24, 2018</item>
+        <item>Februari 14,2019</item>
+        <item>November 21, 2018</item>
+        <item>Januari 16, 2019</item>
+        <item>November 27, 2018</item>
+        <item>Februari 8,2019</item>
+        <item>November 16,2018</item>
+        <item>November 21,2018</item>
+        <item>November 20, 2018</item>
+    </string-array>
+    <string-array name="data_date_tv">
+        <item>Dari 2012</item>
+        <item>Dari 2014</item>
+        <item>Dari 2014</item>
+        <item>Dari 2005</item>
+        <item>Dari 2017</item>
+        <item>Dari 2003</item>
+        <item>Dari 2017</item>
+        <item>Dari 2015</item>
+        <item>Dari 2019</item>
+        <item>Dari 2010</item>
+    </string-array>
+    <string-array name="data_desc">
+        <item> Musisi kawakan Jackson Maine menemukan - dan jatuh cinta dengan - artis yang sedang berjuang Ally. Dia baru saja menyerah pada mimpinya untuk menjadi besar sebagai penyanyi - sampai Jack membujuknya menjadi sorotan. Tetapi bahkan ketika karier Allys lepas landas, sisi pribadi dari hubungan mereka hancur, karena Jack berjuang terus-menerus dengan setan internalnya sendiri. </item>
+        <item> Penyanyi Freddie Mercury, gitaris Brian May, drummer Roger Taylor dan gitaris John Deacon mengambil dunia musik dengan badai ketika mereka membentuk band rock n roll Queen pada tahun 1970. Lagu-lagu hit menjadi klasik instan. Ketika gaya hidup Mercury yang semakin liar mulai lepas kendali, Queen segera menghadapi tantangan terbesarnya - menemukan cara untuk menjaga band tetap bersama di tengah kesuksesan dan kelebihan. </item>
+        <item> Ketika Alita terbangun tanpa ingatan siapa dia di dunia masa depan yang tidak dia kenal, dia dibawa oleh Ido, seorang dokter yang penuh kasih yang menyadari bahwa di suatu tempat di cangkang cyborg yang ditinggalkan ini adalah hati dan jiwa seorang wanita muda dengan masa lalu yang luar biasa. </item>
+        <item> Antara kewajiban pribadi dan pelatihan untuk pertarungan besar berikutnya melawan lawan yang memiliki ikatan dengan masa lalu keluarganya, Adonis Creed menghadapi tantangan hidupnya. </item>
+        <item> Dalam serangkaian pertemuan yang meningkat, mantan penjaga keamanan David Dunn menggunakan kemampuan supernaturalnya untuk melacak Kevin Wendell Crumb, seorang lelaki terganggu yang memiliki dua puluh empat kepribadian. Sementara itu, kehadiran bayangan Elia Price muncul sebagai seorang orkestra yang menyimpan rahasia penting bagi keduanya. </item>
+        <item> Beribu-ribu tahun di masa depan, kota-kota Bumi menjelajah dunia dengan roda besar, saling melahap dalam perjuangan untuk sumber daya yang semakin berkurang. Di salah satu kota traksi besar ini, London tua, Tom Natsworthy mengalami perjumpaan tak terduga dengan seorang wanita muda misterius dari daerah terlantar yang akan mengubah jalan hidupnya selamanya. </item>   <item> Kehidupan keluarga yang tenang di Nels Coxman, seorang sopir bajak salju, menjadi kacau setelah pembunuhan putranya. Nels memulai perburuan dendam untuk Viking, raja obat bius yang dimilikinya yang bertanggung jawab atas pembunuhan itu, menghilangkan rekan Viking satu per satu. Saat Nels semakin dekat dengan Viking, tindakannya membawa konsekuensi yang lebih tak terduga dan kejam, karena ia membuktikan bahwa balas dendam adalah semua dalam eksekusi. </item>
+        <item> Gellert Grindelwald telah lolos dari hukuman penjara dan mulai mengumpulkan pengikut untuk tujuannya — meninggikan para penyihir di atas semua makhluk non-magis. Satu-satunya yang mampu menghentikannya adalah penyihir yang pernah ia sebut teman terdekatnya, Albus Dumbledore. Namun, Dumbledore perlu mencari bantuan dari penyihir yang pernah menggagalkan Grindelwald sebelumnya, mantan muridnya Newt Scamander, yang setuju untuk membantu, tidak menyadari bahaya yang ada di depan. Garis ditarik saat cinta dan kesetiaan diuji, bahkan di antara teman dan keluarga yang paling sejati, di dunia sihir yang semakin terpecah. </item>
+        <item> Pada tahun 1561, Mary Stuart, janda Raja Prancis, kembali ke Skotlandia, merebut kembali tahtanya yang sah dan mengancam masa depan Ratu Elizabeth I sebagai penguasa Inggris, karena ia memiliki klaim sah atas takhta Inggris. Pengkhianatan, pemberontakan, konspirasi, dan pilihan hidup mereka sendiri membahayakan Ratu. Mereka mengalami biaya kekuasaan yang pahit, sampai nasib tragis mereka akhirnya terpenuhi. </item>
+        <item> Orang jahat di video game Ralph dan rekannya yang tidak cocok Vanellope von Schweetz harus mengambil risiko dengan bepergian ke World Wide Web untuk mencari bagian pengganti untuk menyelamatkan video game Vanellopes, "Sugar Rush." Di atas kepala mereka, Ralph dan Vanellope mengandalkan warga internet para netizen untuk membantu menavigasi jalan mereka, termasuk seorang pengusaha bernama Yesss, yang merupakan algoritma kepala dan jantung dan jiwa dari situs pembuat tren BuzzzTube </item>    </string-array>
+    <string-array name="data_desc_tv">
+        <item> Playboy miliarder manja, Oliver Queen, hilang dan diduga tewas saat kapal pesiarnya hilang di laut. Dia kembali lima tahun kemudian seorang pria yang berubah, bertekad untuk membersihkan kota sebagai main hakim sendiri bersenjatakan busur. </item>
+        <item> Setelah akselerator partikel menyebabkan badai hebat, Penyelidik CSI Barry Allen disambar petir dan jatuh koma. Beberapa bulan kemudian dia terbangun dengan kekuatan kecepatan super, memberinya kemampuan untuk bergerak melalui Central City seperti malaikat penjaga yang tak terlihat. Meskipun awalnya bersemangat dengan kekuatan barunya, Barry terkejut menemukan bahwa dia bukan satu-satunya "manusia meta" yang diciptakan setelah ledakan akselerator dan tidak semua orang menggunakan kekuatan baru mereka untuk kebaikan. Barry bermitra dengan S.T.A.R. Lab dan mendedikasikan hidupnya untuk melindungi yang tidak bersalah. Untuk saat ini, hanya beberapa teman dekat dan rekan yang tahu bahwa Barry secara harfiah adalah manusia tercepat yang hidup, tetapi itu tidak akan lama sebelum dunia mengetahui apa yang menjadi Barry Allen The Flash. </item>
+        <item> Semua orang tahu nama Komisaris Gordon. Dia adalah salah satu musuh terbesar dunia kejahatan, seorang pria yang reputasinya identik dengan hukum dan ketertiban. Tapi apa yang diketahui tentang kisah Gordons dan kenaikannya dari detektif pemula ke Komisaris Polisi? Apa yang diperlukan untuk menavigasi berbagai lapisan korupsi yang diam-diam memerintah Kota Gotham, tempat bertelurnya penjahat paling ikonik di dunia? Dan keadaan apa yang menciptakan mereka - persona yang lebih besar dari kehidupan yang akan menjadi Catwoman, The Penguin, The Riddler, Two-Face dan The Joker? </item>
+        <item> Mengikuti kehidupan pribadi dan profesional sekelompok dokter di Rumah Sakit Gray Sloan Memorial di Seattle. </item>
+        <item> Danny Rand muncul kembali 15 tahun setelah dianggap mati. Sekarang, dengan kekuatan Iron Fist, ia berusaha untuk merebut kembali masa lalunya dan memenuhi takdirnya. </item>
+        <item> Dari pembunuhan dan spionase hingga terorisme dan kapal selam curian, tim agen khusus menyelidiki kejahatan apa pun yang memiliki sedikit bukti yang terhubung dengan personel Korps Angkatan Laut dan Korps Marinir, terlepas dari pangkat atau jabatannya. </item>
+        <item> Berada di masa kini, seri ini menawarkan pandangan subversif yang berani tentang Archie, Betty, Veronica dan teman-teman mereka, menjelajahi kejernihan kehidupan kota kecil, kegelapan dan keanehan yang meluap-luap di bawah fasad sehat Riverdale. </item>
+        <item> Kara Zor-El yang berusia 24 tahun, yang ditangkap oleh keluarga Danvers ketika dia berusia 13 tahun setelah diusir dari Krypton, harus belajar merangkul kekuatannya setelah sebelumnya menyembunyikannya. Orang-orang Danvers mengajarinya untuk berhati-hati dengan kekuatannya, sampai dia harus mengungkapkannya selama bencana yang tak terduga, menempatkannya dalam perjalanan kepahlawanannya. </item>
+        <item> Keluarga superhero yang disfungsional berkumpul untuk memecahkan misteri kematian ayah mereka, ancaman kiamat, dan banyak lagi. </item>
+        <item> Wakil Sheriff Rick Grimes terbangun dari koma untuk menemukan dunia pasca-apokaliptik yang didominasi oleh zombie pemakan daging. Dia berangkat untuk menemukan keluarganya dan bertemu dengan banyak penyintas lainnya di sepanjang jalan. </item>
+    </string-array>
+    <array name="data_poster">
+        <item>@drawable/poster_a_start_is_born</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_alita</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_glass</item>
+        <item>@drawable/poster_mortal_engines</item>
+        <item>@drawable/poster_cold_persuit</item>
+        <item>@drawable/poster_crimes</item>
+        <item>@drawable/poster_marry_queen</item>
+        <item>@drawable/poster_ralph</item>
+    </array>
+    <array name="data_poster_tv">
+        <item>@drawable/poster_arrow</item>
+        <item>@drawable/poster_flash</item>
+        <item>@drawable/poster_gotham</item>
+        <item>@drawable/poster_grey_anatomy</item>
+        <item>@drawable/poster_iron_fist</item>
+        <item>@drawable/poster_ncis</item>
+        <item>@drawable/poster_riverdale</item>
+        <item>@drawable/poster_supergirl</item>
+        <item>@drawable/poster_the_umbrella</item>
+        <item>@drawable/poster_the_walking_dead</item>
+    </array>
+    <string-array name="data_rate">
+        <item>7.7/10</item>
+        <item>8.0/10</item>
+        <item>7.5/10</item>
+        <item>7.2/10</item>
+        <item>6.7/10</item>
+        <item>6.1/10</item>
+        <item>6.2/10</item>
+        <item>6.6/10</item>
+        <item>6.3/10</item>
+        <item>7.1/10</item>
+    </string-array>
+    <string-array name="data_rate_tv">
+        <item>7.6/10</item>
+        <item>7.8/10</item>
+        <item>7.9/10</item>
+        <item>7.6/10</item>
+        <item>6.6/10</item>
+        <item>7.8/10</item>
+        <item>7.3/10</item>
+        <item>6.4/10</item>
+        <item>8.1/10</item>
+        <item>8.3/10</item>
+    </string-array>
+
+
+</resources>
